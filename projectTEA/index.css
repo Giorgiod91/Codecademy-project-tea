@@ -1,0 +1,121 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    
+}
+h2{
+    
+}
+.header {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    display: block;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+}
+
+    h1 {text-align: center;}
+
+h2 {
+    text-align: center;
+}
+
+.picture1 {
+    height: 50px;
+
+}
+
+
+.list1{
+    float: right;
+}
+
+li {
+    text-decoration: underline;
+    display: inline;
+    
+}
+
+
+.missioncontainer {
+background-image: url("images/img-mission-background.jpg");
+background-repeat: no-repeat;
+background-position: center;
+height: 700px;
+max-width: 1000px;
+margin: 40px auto 40px auto;
+display: flex;
+
+}
+
+.text-over {
+
+margin: auto;
+background-color: black;
+width: 100%;
+}
+
+.trend-container {
+display: flex;
+margin: auto;
+height: auto;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+
+
+}
+
+
+.trend img {
+height: 200px;
+width: 300px;
+padding: 10px 10px;
+
+}
+
+.banner {
+height: 500px;
+max-width: 1200px;
+margin: 40px auto auto auto;
+padding-top: 85px;
+background-image: url(./images/img-locations-background.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+
+.texttop {
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.box-container {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    height: 300px;
+    padding: 20px;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.8;
+    margin-bottom: auto;
+
+}
+
+.skills{
+   
+background-color: aquamarine;
+
+}
